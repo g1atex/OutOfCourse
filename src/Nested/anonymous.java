@@ -25,6 +25,7 @@ public class anonymous {
         System.out.println("git deneme");
         System.out.println("git deneme 2" );
         System.out.println("git deneme 3");
+        System.out.println("git denem 4");
     }
 
 }
