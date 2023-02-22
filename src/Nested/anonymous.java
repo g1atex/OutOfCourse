@@ -20,7 +20,10 @@ public class anonymous {
 
     public static void main(String[] args) {
 
-            interface versioncontrol { }
+            interface versioncontrol {
+                interface version4{}
+            }
+
         anonymous a=new anonymous();
         Faktoriyel f=a.fak(4); //bu şekildede yazılabilir normalde direk new deyip anonymous class oluşturuyorduk ama buda farklı bir bakış.
         System.out.println(f.hesap()); //functioal interfacedeki abstract metodu temsil etti
